@@ -21,8 +21,11 @@ body {
   text-rendering: optimizeSpeed;
   font-family: "Barlow Semi Condensed", sans-serif;
 
-  padding: 5rem 1.5rem;
+  padding: 7rem 1.5rem;
   background-color: var(--color-light-graysh-blue);
+
+  display: grid;
+  place-content: center;
 }
 
 .testimonials__wrapper {
@@ -109,6 +112,15 @@ body {
   margin-right: 1rem;
   width: 2.2rem;
   height: 2.2rem;
+}
+
+.card--one img,
+.card--four img {
+  border: 2px solid hsla(263, 100%, 82%, 0.384);
+}
+
+.card--two img {
+  border: 2px solid hsl(220, 1%, 50%);
 }
 
 @media screen and (min-width: 600px) {
