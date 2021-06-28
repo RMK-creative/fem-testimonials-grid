@@ -22,12 +22,11 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 
   padding: 5rem 1.5rem;
-
-  background-color: var(--color-light-gray);
+  background-color: var(--color-light-graysh-blue);
 }
 
 .testimonials__wrapper {
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 100rem;
 
   display: grid;
@@ -48,7 +47,7 @@ body {
 
 .testimonial__profile--quote {
   margin-top: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   opacity: 0.7;
   line-height: 1.5;
 }
@@ -69,6 +68,16 @@ body {
 
 .card--one {
   background-color: var(--color-moderate-violet);
+  position: relative;
+  z-index: 10;
+}
+
+.card--one::before {
+  content: url(/images/bg-pattern-quotation.svg);
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  z-index: -1;
 }
 
 .card--two {
@@ -155,5 +164,9 @@ body {
   .card--five {
     grid-column: 4 / span 1;
     grid-row: 1 / span 2;
+  }
+
+  .card--one::before {
+    right: 10rem;
   }
 }
