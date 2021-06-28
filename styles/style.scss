@@ -1,0 +1,64 @@
+:root {
+  --color-moderate-violet: hsl(263, 55%, 52%);
+  --color-very-dark-gray-blue: hsl(217, 19%, 35%);
+  --color-very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(0, 0%, 81%);
+  --color-light-graysh-blue: hsl(210, 46%, 95%);
+}
+
+*,
+*::before,
+*::after,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+
+  padding: 5rem 1.5rem;
+
+  background-color: var(--color-light-gray);
+}
+
+.wrapper {
+  min-height: 100vh;
+
+  display: grid;
+  place-content: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.testimonial__profile {
+}
+
+.testimonial__card {
+  padding: 2rem;
+}
+
+.card--one {
+  background-color: var(--color-moderate-violet);
+}
+
+.card--two {
+  background-color: var(--color-very-dark-gray-blue);
+}
+
+.card--three,
+.card--five {
+  background-color: var(--color-white);
+}
+
+.card--four {
+  background-color: var(--color-very-dark-blackish-blue);
+}
