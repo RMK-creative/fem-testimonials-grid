@@ -21,7 +21,7 @@ body {
   text-rendering: optimizeSpeed;
   font-family: "Barlow Semi Condensed", sans-serif;
 
-  padding: 7rem 1.5rem;
+  padding: 4rem 1.5rem;
   background-color: var(--color-light-graysh-blue);
 
   display: grid;
@@ -34,7 +34,7 @@ body {
 
   display: grid;
   place-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 /******    FONTS     ********/
@@ -67,6 +67,7 @@ body {
   color: var(--color-white);
 
   border-radius: 10px;
+  box-shadow: 1rem 3rem 3rem hsla(217, 19%, 35%, 0.1);
 }
 
 .card--one {
@@ -143,7 +144,6 @@ body {
 
   .testimonials__wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
   }
 
   .card--four {

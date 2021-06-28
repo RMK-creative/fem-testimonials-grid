@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: "Barlow Semi Condensed", sans-serif;
-  padding: 7rem 1.5rem;
+  padding: 4rem 1.5rem;
   background-color: var(--color-light-graysh-blue);
   display: grid;
   place-content: center;
@@ -31,7 +31,7 @@ body {
   max-width: 100rem;
   display: grid;
   place-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 /******    FONTS     ********/
@@ -62,6 +62,7 @@ body {
   padding: 1.5rem 2rem;
   color: var(--color-white);
   border-radius: 10px;
+  box-shadow: 1rem 3rem 3rem rgba(72, 85, 106, 0.1);
 }
 
 .card--one {
@@ -136,7 +137,6 @@ body {
   }
   .testimonials__wrapper {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
   }
   .card--four {
     grid-column: 2 / span 2;
