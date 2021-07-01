@@ -37,6 +37,15 @@ body {
   gap: 2rem;
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /******    FONTS     ********/
 .testimonial__profile--name {
   font-size: 0.8125rem;
